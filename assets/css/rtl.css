@@ -1,0 +1,138 @@
+
+body{
+    font-family: 'Noto Sans','Noto Sans Arabic', sans-serif;
+    font-size: 17px;
+    color:#111;
+    margin: 0;
+    font-weight: 400;
+}
+
+.post-header{
+    background-color: #f9f9f9;
+}
+.post-header nav{
+    max-width: 650px;
+    margin: auto;
+    padding: 10px 13px;
+}
+.post-header nav a{
+    color: #888;
+    margin-left: 20px;
+    font-size: 0.95em;
+}
+.post-header nav a:last-child{
+    margin-left: 0;
+}
+.post-header nav a:hover{
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+}
+
+article{
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+
+
+h1,h2,h3,h4,h5,h6,p,ol,ul{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+}
+ol,ul{
+    margin-bottom: 50px;
+    padding-inline-start: 40px;
+    list-style-position: inside;
+}
+p,li{
+    line-height: 1.9;
+}
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.75;
+}
+h1{
+    font-size: 1.35em;
+}
+h2{
+    font-size: 1.25em;
+}
+h3,h4,h5,h6{
+    font-size: 1.15em;
+}
+a {
+    text-decoration: none;
+}
+b,strong{
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    margin: 15px auto 20px auto;
+}
+
+
+table {
+    width: 100%;
+    max-width:1024px ;
+    margin: 20px auto 70px;
+    padding: 0 13px;
+    border-spacing: 0;
+}
+thead th {
+    border-bottom: 1px solid #ddd;
+}
+th,td{
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+hr{
+    margin: 40px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+.button a {
+    color:#111;
+}
+
+.footer{
+    padding: 70px 20px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-icon ul{
+    padding: 0;
+    text-align: center;
+}
+.social-icon li{
+    list-style: none;
+    display: inline;
+}
+.social-icon li a img{
+    padding: 0 12px;
+}
+@media (max-width: 600px){   
+    body{
+        font-size: 100%;
+    }
+}

@@ -85,6 +85,16 @@ h3,h4,h5,h6{
 a {
     text-decoration: none;
 }
+.blog-list li {
+    list-style: none;
+    padding: 0 0 17px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 17px;
+    font-weight: bold;
+}
+.blog-list li:last-child {
+    border-bottom: 0;
+}
 
 img {
     display: block;

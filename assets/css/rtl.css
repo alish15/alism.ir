@@ -63,9 +63,13 @@ h1,h2,h3,h4,h5,h6,p,ol,ul{
 h1,h2,h3,h4,h5,h6,p{
     margin-top: 0;
 }
-ol,ul{
+ul{
     margin-bottom: 50px;
     list-style-position: inside;
+}
+ol {
+    margin-bottom: 50px;
+    list-style: persian inside;
 }
 p,li{
     line-height: 1.9;
@@ -86,11 +90,12 @@ a {
     text-decoration: none;
 }
 .blog-list li {
-    list-style: none;
-    padding: 0 0 17px 0;
+    list-style: persian;
+    padding: 0 10px 17px 10px;
     border-bottom: 1px solid #ddd;
     margin-bottom: 17px;
     font-weight: bold;
+    list-style-position: inside;
 }
 .blog-list li:last-child {
     border-bottom: 0;
@@ -160,12 +165,4 @@ hr{
     body{
         font-size: 100%;
     }
-}
-
-
-
-#disqus_thread {
-    padding: 0 15px;
-    max-width: 650px;
-    margin: 0 auto 70px;
 }

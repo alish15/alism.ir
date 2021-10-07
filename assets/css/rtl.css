@@ -1,6 +1,7 @@
 @font-face {
     font-family: myFont;
     src: url(../fonts/font.woff2);
+    font-display: swap;
 }
 
 body{

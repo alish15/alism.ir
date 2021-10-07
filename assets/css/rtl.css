@@ -1,7 +1,7 @@
 @font-face {
     font-family: myFont;
     src: url(../fonts/font.woff2);
-    font-display: swap;
+    font-display: optional;
 }
 
 body{
@@ -83,6 +83,7 @@ b,strong{
 img {
     display: block;
     width: 100%;
+    height: auto;
     max-width: 1024px;
     margin: 15px auto 20px auto;
 }

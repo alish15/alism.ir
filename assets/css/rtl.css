@@ -1,15 +1,22 @@
 @font-face {
-    font-family: myFont;
-    src: url(../fonts/font.woff2);
-    font-display: optional;
+    font-family: vazir;
+    src: url(../fonts/Vazir-Regular.woff2);
+    font-weight: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir-Bold.woff2);
+    font-weight: bold;
+    font-display: block;
 }
 
 body{
-    font-family: 'myFont', sans-serif;
+    font-family: 'vazir', sans-serif;
     font-size: 17px;
     color:#111;
     margin: 0;
-    font-variation-settings: 'wght' 400;
+    font-weight: normal;
 }
 
 .post-header{
@@ -21,6 +28,9 @@ body{
     padding: 0 13px;
     height: 50px;
     line-height: 50px;
+    white-space: nowrap;
+    overflow-x: visible;
+    overflow-y: hidden;
 }
 .post-header nav a{
     color: #888;
@@ -62,7 +72,6 @@ p,li{
 }
 h1,h2,h3,h4,h5,h6{
     line-height: 1.75;
-    font-variation-settings: 'wght' 500;
 }
 h1{
     font-size: 1.35em;
@@ -75,9 +84,6 @@ h3,h4,h5,h6{
 }
 a {
     text-decoration: none;
-}
-b,strong{
-    font-variation-settings: 'wght' 700;
 }
 
 img {
@@ -98,7 +104,7 @@ table {
 }
 thead th {
     border-bottom: 1px solid #ddd;
-    font-variation-settings: 'wght' 500;
+
 }
 th,td{
     padding: 5px;

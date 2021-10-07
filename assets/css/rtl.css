@@ -1,19 +1,24 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/font.woff2);
+}
 
 body{
-    font-family: 'Noto Sans','Noto Sans Arabic', sans-serif;
+    font-family: 'myFont', sans-serif;
     font-size: 17px;
     color:#111;
     margin: 0;
-    font-weight: 400;
+    font-variation-settings: 'wght' 400;
 }
 
 .post-header{
     background-color: #f9f9f9;
 }
-.post-header nav{
+.post-header nav {
     max-width: 650px;
     margin: auto;
-    padding: 10px 13px;
+    padding: 0 13px;
+    line-height: 50px;
 }
 .post-header nav a{
     color: #888;
@@ -48,7 +53,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 ol,ul{
     margin-bottom: 50px;
-    padding-inline-start: 40px;
     list-style-position: inside;
 }
 p,li{
@@ -56,6 +60,7 @@ p,li{
 }
 h1,h2,h3,h4,h5,h6{
     line-height: 1.75;
+    font-variation-settings: 'wght' 500;
 }
 h1{
     font-size: 1.35em;
@@ -70,7 +75,7 @@ a {
     text-decoration: none;
 }
 b,strong{
-    font-weight: 700;
+    font-variation-settings: 'wght' 700;
 }
 
 img {
@@ -90,6 +95,7 @@ table {
 }
 thead th {
     border-bottom: 1px solid #ddd;
+    font-variation-settings: 'wght' 500;
 }
 th,td{
     padding: 5px;

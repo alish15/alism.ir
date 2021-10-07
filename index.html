@@ -22,6 +22,7 @@
 
     <link rel="preload" href="./assets/fonts/Poppins-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="./assets/fonts/Poppins-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/PlayfairDisplay-Medium.woff2" as="font" type="font/woff2" crossorigin>
 
 
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/fav/apple-touch-icon.png">
@@ -45,33 +46,22 @@
             font-weight: bold;
             font-display: block;
         }
+        @font-face {
+            font-family: PlayfairDisplay;
+            src: url(./assets/fonts/PlayfairDisplay-Medium.woff2);
+            font-weight: bold;
+            font-display: block;
+        }
 
         body{
             font-family: 'poppins', sans-serif;
             color:#555;
             margin: 0;
             font-weight: normal;
+            font-size: 14px;
         }
         a {
             text-decoration: none;
-        }
-        .footer{
-            padding: 70px 20px;
-            max-width: 1100px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .social-icon ul{
-            padding: 0;
-            text-align: center;
-        }
-        .social-icon li{
-            list-style: none;
-            display: inline;
-        }
-        .social-icon li a img{
-            padding: 0 12px;
-            vertical-align: middle;
         }
         .width600{
             max-width: 600px;
@@ -82,6 +72,32 @@
             max-width: 640px;
             margin-left: auto;
             margin-right: auto;
+        }
+        .socialmenu{
+            text-align: center;
+            padding: 70px 0;
+        }
+        .socialmenu li{
+            display: inline;
+        }
+        .socialmenu a{
+            font-family: PlayfairDisplay;
+            text-transform: capitalize;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: #000;
+            text-decoration: none;
+            text-align:center;
+        }
+        .socialmenu a:hover{
+            border-bottom: 1px solid;
+        }
+        .socialmenu li{
+            padding-right: 20px;
+        }
+        .socialmenu li:last-child{
+            padding-right: 0;
         }
     </style>
 
@@ -100,36 +116,16 @@
     <article id="content">
         <div id="about" class="width600" style="padding: 20px;text-align: left;">
             <img src="./assets/images/alism.png" alt="Ali Motlagh">
-            <h1 style="font-size: 35px;color: black;">👋 Hi, I'm Ali</h1>
-            <p style="letter-spacing: 1px;">I am an enthusiastic web designer based in Iran, with a rich experience of over 6 years in website & product design.</p>
-            <br>
-            <p>test</p>
-            <br>
-            <hr>
-            <br>
-            <h2 style="color: #111;font-size: 18px;">👀 I’m interested in ...</h2>
-            <ul>
-                <li>test</li>
-            </ul>
-            <h2 style="color: #111;font-size: 18px;">🌱 I’m currently learning ...</h2>
-            <ul>
-                <li>test</li>
-            </ul>
-            <h2 style="color: #111;font-size: 18px;">💞️ I’m looking to collaborate on ...</h2>
-            <ul>
-                <li>test</li>
-            </ul>
-            <h2 style="color: #111;font-size: 18px;">👀 I’m interested in ...</h2>
-            <ul>
-                <li>test</li>
-            </ul>
+            <h1 style="font-size: 40px;color: black;">👋 Hi, I'm Ali</h1>
+            <p style="letter-spacing: 1px;">I don't mind if you love to know more about me, I mean just <br>Socially on <a target="_blank" style="font-weight: 600;color: black;" href="https://twitter.com/">Twitter</a> and <a target="_blank" style="font-weight: 600;color: black;" href="https://instagram.com/">Instagram</a>.</p>
+
         </div>
 
 
         <div id="contact" class="width640" style="background-color: whitesmoke;margin-top: 70px;padding: 20px;">
-            <h2 style="color: #111;">📫 How to reach me ..</h2>
-            <p>Whether you wish to discuss new ideas or have a project for me, simply send me an Email and I’ll get back to you soon.</p>
-            <p><b>Email: <a href="mailto:alish@outlook.at" style="color:#111;">alish@outlook.at</a></b></p>
+            <h2 style="color: #111;">📫 How to reach me ...</h2>
+            <p>Whether you wish to discuss new ideas or have a project for me, simply send me an Email, and let's chat.</p>
+            <p><b>Email: </b><a href="mailto:alish@outlook.at" rel="nofollow" target="_blank" style="color:#111;">alish@outlook.at</a></p>
         </div>
 
 
@@ -137,32 +133,13 @@
 
     </article>
         <footer>
-            <div class="footer">
-                <div id="follow" class="social-icon">
-                    <ul>
-                        <li>
-                            <a href="https://twitter.com/sizdahom" target="_blank">
-                                <img src="assets/icon/004-twitter.svg" width="35" height="35">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCdnLul4xeVGahNuCTlpAJpQ" target="_blank">
-                                <img src="assets/icon/018-youtube.svg" width="35" height="35">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://instagram.com/sizdah" target="_blank">
-                                <img src="assets/icon/014-instagram.svg" width="32" height="32">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://t.me/alish_dev" target="_blank">
-                                <img src="assets/icon/020-telegram.svg" width="35" height="35">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+            <ul class="socialmenu">
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">NFTs</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+
         </footer>
     </div>
 </body>

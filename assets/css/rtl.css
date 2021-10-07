@@ -161,3 +161,11 @@ hr{
         font-size: 100%;
     }
 }
+
+
+
+#disqus_thread {
+    padding: 0 15px;
+    max-width: 650px;
+    margin: 0 auto 70px;
+}

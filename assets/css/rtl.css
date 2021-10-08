@@ -20,7 +20,7 @@ body{
 }
 
 .post-header{
-    background-color: #fff;
+    background-color: #fbfbfd;
 }
 .post-header nav {
     max-width: 650px;
@@ -33,7 +33,7 @@ body{
     overflow-y: hidden;
 }
 .post-header nav a{
-    color: #888;
+    color: #1d1d1f;
     margin-left: 20px;
     font-size: 0.95em;
 }
@@ -88,6 +88,7 @@ h3,h4,h5,h6{
 }
 a {
     text-decoration: none;
+    color: #06c;
 }
 .blog-list li {
     list-style: persian;

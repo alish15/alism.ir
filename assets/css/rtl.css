@@ -20,17 +20,17 @@ body{
 }
 
 .post-header{
-    background-color: #fbfbfd;
+    background-color: #F5F5F7;
 }
 .post-header nav {
     max-width: 650px;
     margin: auto;
-    padding: 0 13px;
     height: 50px;
     line-height: 50px;
     white-space: nowrap;
     overflow-x: visible;
     overflow-y: hidden;
+    padding: 0 15px;
 }
 .post-header nav a{
     color: #1d1d1f;
@@ -56,8 +56,8 @@ h1,h2,h3,h4,h5,h6,p,ol,ul{
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 13px;
-    padding-left: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 h1,h2,h3,h4,h5,h6,p{

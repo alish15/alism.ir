@@ -117,6 +117,56 @@
         b{
             font-weight: 500;
         }
+        .img-product{
+            width: 100%;
+        }
+
+
+
+        .grid-cont{
+            display: grid;
+            padding: 20px;
+            grid-row-gap: 100px;
+            grid-template-columns: 33.33% 33.33% 33.33%;
+        }
+        .grid-cont div{
+            padding: 0 20px;
+        }
+        .grid-cont div img{
+            width: 100%;
+        }
+        .grid-cont h3{
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .grid-cont div p{
+            font-size: 14px;
+            color: #888;
+            margin: auto 0;
+        }
+        .grid-cont div h3>span{
+            background-image: linear-gradient(0deg, #E9F4E5 50%, transparent 50%);
+        }
+        .grid-cont div h3>span::after{
+            content: " >";
+        }
+        @media screen and (max-width:1024px) {
+            .grid-cont{
+                grid-template-columns: 50% 50%;
+                padding: 10px;
+            }
+            .grid-cont div{
+                padding: 0 15px;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .grid-cont{
+                grid-template-columns: 100%;
+                padding: 0;
+            }
+        }
+
+
     </style>
 
     <script type="text/javascript">
@@ -137,7 +187,7 @@
         <div style="padding: 50px 15px 0 15px;text-align: left;">
             <div class="width500" >
                 <img src="./assets/images/alism.png" alt="Ali Motlagh" style="display: block;margin-right: auto;margin-left: auto;" width="100" height="100">
-                <h1 style="font-size: 40px; text-align: center;"><span style="    background-image: linear-gradient(0deg, #E7FBF8 50%, transparent 50%);">Hi, I'm Ali.</span></h1>
+                <h1 style="font-size: 40px; text-align: center;"><span style="background-image: linear-gradient(0deg, #E7FBF8 50%, transparent 50%);">Hi, I'm Ali.</span></h1>
                 <p style="color:#555">I don't mind if you love to know more about me, I mean just Socially on <a target="_blank" style="font-weight: 500;color: #222;" href="https://twitter.com/sizdahom">twitter</a> and <a target="_blank" style="font-weight: 500;color: #222;" href="https://instagram.com/sizdah">instagram</a>.</p>
                 <ul class="socialmenu">
                     <li><a href="https://www.youtube.com/channel/UCdnLul4xeVGahNuCTlpAJpQ" target="_blank">Videos</a></li>
@@ -147,24 +197,47 @@
             </div>
         </div>
 
+        <h2 style="font-size: 30px; text-align: center; margin-top: 90px;"><span style="background-image: linear-gradient(0deg, #FFEEDA 50%, transparent 50%);">Products</span></h2>
 
-        <div style="max-width: 1100px; margin:80px auto;padding: 0 15px;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sollicitudin urna, vel consectetur odio. Etiam blandit egestas massa, nec gravida risus. In hac habitasse platea dictumst. Ut ultrices et ex non feugiat. Vivamus est ligula, scelerisque eu bibendum quis, commodo in mauris. Mauris dapibus dictum turpis eget convallis. Curabitur suscipit gravida sapien, in varius dui. Ut ac malesuada lectus. Vestibulum nec fringilla tellus, vitae consequat libero. Vestibulum pretium tincidunt nisl vitae pulvinar. Etiam id dictum lectus. Sed auctor mauris eget est ullamcorper sodales sed et ligula. Aliquam vel condimentum ex. Quisque id nulla nec dui ullamcorper mollis ac eu dui. Nunc at suscipit ligula, at sollicitudin nisl.
+        <div class="grid-cont products" style="max-width: 1920px; margin:80px auto;">
 
-                Ut lectus nisl, mollis a neque in, ultrices aliquam lacus. Maecenas eu risus purus. Pellentesque erat arcu, volutpat quis varius bibendum, fermentum non magna. Ut ligula mauris, pulvinar sed suscipit vitae, mattis ac libero. Quisque porta maximus libero, blandit tempus erat convallis eu. Nullam fringilla venenatis quam, eget interdum sapien convallis quis. In mattis, mi a hendrerit fermentum, sapien est eleifend orci, vitae iaculis elit nunc rhoncus ipsum. In hac habitasse platea dictumst. Morbi a tincidunt mauris. Curabitur posuere magna libero, convallis feugiat neque sollicitudin in. Etiam et ipsum non lacus dictum porta a fermentum ex. Nullam volutpat eget ligula vitae congue. Ut ac sapien molestie, ultricies neque at, auctor lacus. Integer mauris lorem, iaculis vitae dapibus ac, aliquam id enim.
-                
-                Mauris a mauris leo. Quisque id volutpat dolor. Donec nec lacus lectus. Suspendisse id odio eu ligula consectetur iaculis. In id gravida sem. Aenean eu sollicitudin turpis. Aliquam erat volutpat. Vestibulum tincidunt, massa sed consequat interdum, dui nunc hendrerit eros, quis cursus quam tortor eu erat. Phasellus sagittis urna in erat auctor, eu tempus est mollis. Quisque sit amet nulla dolor. Vestibulum at ligula nec tellus molestie accumsan eu sit amet est.
-                
-                Nulla vitae felis tempus, bibendum ligula sed, vehicula risus. Ut facilisis lacus ornare, varius eros at, pharetra erat. Cras hendrerit, libero in varius molestie, turpis lacus scelerisque metus, at maximus leo ex et nisl. Nam dictum condimentum tortor, non consequat tortor tempor vitae. Donec quam lorem, iaculis vitae odio sit amet, eleifend imperdiet tellus. Quisque quis magna lacinia velit eleifend malesuada. Nullam eu congue dolor.
-                
-                Donec at massa sagittis odio tempus scelerisque. Mauris et risus pharetra, vehicula velit eget, tincidunt leo. Quisque metus est, maximus vel tincidunt et, tristique nec lacus. Fusce efficitur ligula vitae tellus tempor, ut dignissim sem bibendum. Aenean pharetra ligula a bibendum euismod. Ut fermentum velit eget viverra imperdiet. Donec fermentum elementum augue, a mattis leo accumsan id. Praesent porttitor viverra accumsan. Aliquam erat volutpat. Cras malesuada ante vel lorem tincidunt fermentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam urna libero, fringilla quis nisl a, malesuada pellentesque leo.
-                
-                </p>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3><span>Astra</span></h3>
+            </div>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3><span>Woodmart</span></h3>
+            </div>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3><span>Flatsome</span></h3>
+            </div>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3><span>Enfold</span></h3>
+            </div>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3><span>Soledad</span></h3>
+            </div>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3><span>Avada</span></h3>
+            </div>
+
+
+            
         </div>
 
         
-        
-        <footer  class="width600">
+        <footer  class="width600" style="margin-top: 100px;">
             <div id="contact" style="padding: 80px 0;margin: 0px 15px;border-top: 1px solid;">
                 <h2>Let's work together.</h2>
                 <p style="color:#555"">Whether you wish to discuss new ideas or have a project for me, simply send me an Email, and let's chat.</p>

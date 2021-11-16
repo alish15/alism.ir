@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Products</title>
+    <meta name="robots" content="noindex, follow"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/fav/favicon-16x16.png">
+    <link rel="manifest" href="./assets/fav/site.webmanifest">
+    <link rel="mask-icon" href="./assets/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preload" href="./assets/fonts/Rubik-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Rubik-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Rubik-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/PlayfairDisplay-Medium.woff2" as="font" type="font/woff2" crossorigin>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/fav/favicon-16x16.png">
+    <link rel="manifest" href="./assets/fav/site.webmanifest">
+    <link rel="mask-icon" href="./assets/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        @font-face {
+            font-family: rubik;
+            src: url(./assets/fonts/Rubik-Regular.woff2);
+            font-weight: 400;
+            font-display: block;
+        }
+        @font-face {
+            font-family: rubik;
+            src: url(./assets/fonts/Rubik-Medium.woff2);
+            font-weight: 500;
+            font-display: block;
+        }
+        @font-face {
+            font-family: rubik;
+            src: url(./assets/fonts/Rubik-Bold.woff2);
+            font-weight: 800;
+            font-display: block;
+        }
+        @font-face {
+            font-family: PlayfairDisplay;
+            src: url(./assets/fonts/PlayfairDisplay-Medium.woff2);
+            font-weight: 500;
+            font-display: block;
+        }
+
+        body{
+            font-family: 'rubik', Arial, sans-serif;
+            color:#222;
+            margin: 0;
+            font-weight: normal;
+        }
+        h1,h2,h3,h4,h5,h6{
+            font-weight: 800;
+        }
+        p{
+            line-height: 27px;
+        }
+        a {
+            text-decoration: none;
+        }
+        .width600{
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .width500{
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .socialmenu{
+            text-align: center;
+            padding: 40px 0 60px;
+            margin: 0 auto;
+            border-bottom: 1px solid;
+        }
+
+        .socialmenu li{
+            display: inline;
+        }
+        .socialmenu a{
+            font-family: PlayfairDisplay;
+            text-transform: capitalize;
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            color: black;
+            text-decoration: none;
+            text-align:center;
+        }
+        .socialmenu a:hover{
+            border-bottom: 1px solid;
+        }
+        .socialmenu li{
+            padding-right: 20px;
+        }
+        .socialmenu li:last-child{
+            padding-right: 0;
+        }
+        b{
+            font-weight: 500;
+        }
+
+
+        .grid-cont{
+            display: grid;
+            padding: 20px 10px;
+            grid-row-gap: 100px;
+            grid-template-columns: 50% 50%;
+        }
+        .grid-cont div{
+            padding: 0 10px;
+        }
+        .grid-cont div img{
+            width: 100%;
+        }
+        .grid-cont h3{
+            font-size: 25px;
+            margin-top: 10px;
+            display: inline;
+            background-image: linear-gradient(0deg, #E9F4E5 50%, transparent 50%);
+        }
+        .grid-cont div h3::after{
+            content: " >";
+        }
+        .grid-cont div p{
+            font-size: 14px;
+            color: #888;
+            margin: auto 0;
+        }
+
+        nav a{
+            color: #222;
+            padding: 0 10px;
+        }
+        @media screen and (max-width:1024px) {
+            .grid-cont{
+                grid-template-columns: 50% 50%;
+                padding: 10px;
+            }
+            .grid-cont div{
+                padding: 0 15px;
+            }
+        }
+        @media screen and (max-width:768px) {
+            .grid-cont{
+                grid-template-columns: 100%;
+                padding: 0;
+            }
+        }
+
+
+    </style>
+
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "8rohldxxci");
+    </script>
+
+
+</head>
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/", 
+          "@type": "BreadcrumbList", 
+          "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "علی مطلق",
+            "item": "https://alism.ir"  
+          },{
+            "@type": "ListItem", 
+            "position": 2, 
+            "name": "Products",
+            "item": "https://alism.ir/blog.html"  
+          }]
+        }
+        </script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "8rohldxxci");
+</script>
+
+</head>
+
+<body>
+
+
+    <article id="content">
+
+
+
+        <h1 style="font-size: 35px; text-align: center; margin-top: 90px;font-weight: normal;font-family: 'PlayfairDisplay';"><span style="background-image: linear-gradient(0deg, #FFEEDA 50%, transparent 50%);">Products</span></h2>
+
+        <div class="grid-cont products" style="max-width: 1920px; margin:80px auto;">
+
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3>Astra</h3>
+            </div>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3>Woodmart</h3>
+            </div>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3>Flatsome</h3>
+            </div>
+            <div>    
+                <img src="./assets/images/index/img19.jpg" alt="Astra theme">
+                <p>Clothing store | Fashion</p>
+                <h3>Konte</h3>
+            </div>
+        </div>
+
+
+
+    </article>
+
+
+    <footer style="padding: 20px; background-color: #F5F5F7; text-align: center;margin-top: 140px;">
+        <nav>
+            <a class="nav-link" href="/">About</a>
+            <a class="nav-link" href="/#contact">Contact</a>
+        </nav>
+    </footer>
+    
+
+</body>
+</html>

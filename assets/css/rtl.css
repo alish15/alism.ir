@@ -72,7 +72,7 @@ p{
 }
 h1,h2,h3,h4,h5,h6{
     line-height: 1.75;
-    font-variation-settings: 'wght' 500;
+    font-variation-settings: 'wght' 600;
 }
 b,strong{
     font-variation-settings: 'wght' 430;
@@ -156,6 +156,7 @@ tr:nth-child(even) {
     margin-bottom: 10px;
     font-variation-settings: 'wght' 500;
     list-style-position: inside;
+    line-height: 1.6;
 }
 .blog-list li:last-child {
     border-bottom: 0;

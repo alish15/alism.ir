@@ -154,11 +154,11 @@ tr:nth-child(even) {
     padding-bottom: 10px;
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
-    font-variation-settings: 'wght' 500;
     list-style-position: inside;
+    line-height: 1.5;
 }
 .blog-list li a{
-    line-height: 1.5;
+    font-variation-settings: 'wght' 500;
 }
 .blog-list li:last-child {
     border-bottom: 0;

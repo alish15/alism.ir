@@ -21,7 +21,7 @@ body{
 }
 
 .post-header{
-    background-color: #161616;
+    border-bottom: 1px solid black;
 }
 .post-header nav {
     max-width: 740px;
@@ -34,7 +34,7 @@ body{
     padding: 0 15px;
 }
 .post-header nav a{
-    color: #818181;
+    color: #0d193b;
     margin-left: 25px;
     font-size: 0.92em;
 }

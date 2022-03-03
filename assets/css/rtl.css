@@ -21,7 +21,7 @@ body{
 }
 
 .post-header{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #eee;
 }
 .post-header nav {
     max-width: 740px;

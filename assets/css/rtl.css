@@ -1,20 +1,5 @@
-@font-face {
-    font-family: fontfa;
-    src: url(../fonts/fontfa-Regular.woff2);
-    font-display: block;
-    font-weight: normal;
-}
-@font-face {
-    font-family: fontfa;
-    src: url(../fonts/fontfa-Bold.woff2);
-    font-display: block;
-    font-weight: bold;
-}
-
-
-
 body{
-    font-family: 'fontfa', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
     color:#0d193b;
     margin: 0;
     font-size: 17px;
